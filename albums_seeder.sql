@@ -1,7 +1,7 @@
 USE codeup_test_db;
 # delete table data *O*
 TRUNCATE albums;
-
+SELECT * FROM albums;
 INSERT into albums (artist, name, release_date, sales, genre)
 values('Michael Jackson', 'Thriller', '1982', '47.3', 'Pop, rock, R&B'),
 ('Eagles', 'Their Greatest Hits (1971–1975)', '1976', '41.2', 'Country rock, soft rock, folk rock'),
@@ -22,6 +22,9 @@ values('Michael Jackson', 'Thriller', '1982', '47.3', 'Pop, rock, R&B'),
 ('Michael Jackson', 'Dangerous', '1991', '17.3', 'Rock, funk, pop'),
 ('Adele', '21', '2011', '25.3', 'Pop, soul'),
 ('Celine Dion', 'Let''s Talk About Love', '1997', '19.3', 'Pop, soft rock'),
+('The Beatles', '1', '2000', '23.4', 'Rock'),
+('ABBA', 'Gold: Greatest Hits', '1992', '23', 'Pop, Disco'),
+('Madonna', 'The Immaculate Collection', '1990', '19.4', 'Pop, Dance'),
 ('The Beatles', 'Abbey Road', '1969', '14.4', 'Rock'),
 ('Bruce Springsteen', 'Born in the U.S.A.', '1984', '19.6', 'Heartland rock'),
 ('Dire Straits', 'Brothers in Arms', '1985', '17.7', 'Roots rock, blues rock, soft rock'),
