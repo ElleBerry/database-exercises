@@ -20,7 +20,7 @@ SELECT *
 FROM employees
 WHERE hire_date LIKE '199%';
 
-SELECT first_name, last_name, datediff(CURDATE(), hire_date)
+SELECT CONCAT(first_name, ' ', last_name, ' Has been working at the company for ', datediff(CURDATE(), hire_date), ' days') AS 'Days Working At Company'
 FROM employees
 WHERE hire_date LIKE '199%'
   AND birth_date LIKE '%12-25'
